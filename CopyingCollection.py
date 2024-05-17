@@ -1,0 +1,12 @@
+olist = [1, 2, 3, 4, 5]
+clist = olist[:]
+print("Original List=",olist)  
+print("Copy List=",clist)
+odict = {'name': 'John', 'age': 25}
+cdict = odict.copy()
+print("Original Dictionary=",odict)  
+print("Copy Dictionary=",cdict)
+str1 = "Hello"
+cstr = str(str1)
+print("Original String=",str1)  
+print("Copy String=",cstr)
